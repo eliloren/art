@@ -134,8 +134,15 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
     text-decoration:none!important;
 }
 
-.post img {
-background:var(--post);
+.links:hover a img{
+  opacity: .6;
+}
+.links a img:hover{
+  opacity: 1;
+}
+
+.links a img {
+  transition: .3s all;
 }
 
 .hidden, .hide {
