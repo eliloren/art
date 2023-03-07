@@ -134,6 +134,10 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
     text-decoration:none!important;
 }
 
+.post img {
+background:lavender;
+}
+
 .hidden, .hide {
      display:none!important;
 }
