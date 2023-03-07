@@ -134,14 +134,14 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
     text-decoration:none!important;
 }
 
-.links:hover a img{
+.uk-grid-small:hover a img{
   opacity: .6;
 }
-.links a img:hover{
+.uk-grid-small a img:hover{
   opacity: 1;
 }
 
-.links a img {
+.uk-grid-small a img {
   transition: .3s all;
 }
 
