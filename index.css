@@ -134,6 +134,9 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
     text-decoration:none!important;
 }
 
+.post img {
+background:var(--post);
+
 .uk-grid-small:hover a img{
   opacity: .6;
 }
