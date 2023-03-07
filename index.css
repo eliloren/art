@@ -162,6 +162,14 @@ background:var(--post);
      text-decoration:none!important;
 }
 
+.uk-lightbox {
+     background-color:var(--bg-color)!important;
+}
+
+.uk-lightbox-toolbar {
+color:var(--text-color)!important;
+}
+
 /*#reactions__container {
 display:none!important;
 }*/
