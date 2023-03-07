@@ -135,7 +135,7 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
 }
 
 .post img {
-background:lavender;
+background:var(--post);
 }
 
 .hidden, .hide {
@@ -164,6 +164,7 @@ html[data-theme="light"] {
 	--black-color: black;
 	--bg-color: #DEEEE4;
 	--shadows: rgba(125, 138, 124, 0.23);
+	--post: whitesmoke;
 }
 
 html[data-theme="dark"] {
@@ -174,6 +175,7 @@ html[data-theme="dark"] {
 	--black-color: black;
 	--bg-color: #1c1238;
 	--shadows: rgba(1, 0, 19, 0.23);
+	--post: lavender;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -186,6 +188,7 @@ html[data-theme="dark"] {
 		--black-color: black;
 		--bg-color: #1c1238;
 		--shadows: rgba(1, 0, 19, 0.23);
+		--post: lavender;
 	}
 	html[data-theme="light"] {
 		--text-color: #000000;
@@ -195,6 +198,7 @@ html[data-theme="dark"] {
 		--black-color: black;
 		--bg-color: #DEEEE4;
 		--shadows: rgba(125, 138, 124, 0.23);
+		--post: whitesmoke;
 	}
 }
 
